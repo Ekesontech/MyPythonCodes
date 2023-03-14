@@ -6,7 +6,7 @@ Name = input("Enter your name> ")
 print("Hello", Name)
 Salary = int(input("Enter your salary?> "))
 YearsOfService = int(input("Enter years of service?> "))
-Bonus = 0.005
+Bonus = 0.05
 QualifyForBonus = (YearsOfService > 5)
 NetBonusAmt = (QualifyForBonus, Salary * Bonus)
 if YearsOfService > 5:
